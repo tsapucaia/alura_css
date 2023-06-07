@@ -44,7 +44,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
+    gap: 30px;
 }
 
 .apresentacao__conteudo {
@@ -87,7 +87,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 50%;
+    width: 80%;
     border-radius: 8px;
     text-align: center;
     font-size: 1.5rem;
@@ -131,5 +131,16 @@ body {
 
     .apresentacao__conteudo{
         width: auto;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.5rem;
+        font-family: var(--fonte-primaria);
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 1rem;
+        font-family: var(--fonte-secundaria);
+        text-align: justify;
     }
 }
